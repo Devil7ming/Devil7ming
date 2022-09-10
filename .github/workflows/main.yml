@@ -37,6 +37,7 @@ jobs:
       run: |
         npm install hexo-cli -g
         npm install
+        npm install hexo-renderer-pug hexo-renderer-stylus --save
     
     - name: Setup Deploy Private Key
       env:
